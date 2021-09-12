@@ -1,0 +1,116 @@
+font-face {
+    font-family: 'Messapia-Bold';
+    src: url('./Messapia-Bold.woff'); /* IE9 Compat Modes */
+    src: url('mywebfont.eot?#iefix') format('woff'), /* IE6-IE8 */
+    url('./Messapia-Bold.woff') format('woff'), /* Modern Browsers */
+   }
+   body{
+    
+    padding:5%;
+    padding-top: 15%;
+    background-color: black;
+    font-family: "Messapia-Bold", Arial, Helvetica, sans-serif;
+    color: white;
+}
+nav{
+    position: fixed;
+    margin: 0;
+    top: 0;
+    right: 0;
+   padding-top: 5%;
+    z-index: 1;
+    height: 17%;
+    background-color: black;
+    width: 100%;
+
+}
+nav ul{
+    margin: 0 auto;
+    text-align: right;
+    padding: 0;
+    }
+nav ul li{
+    display: inline-block;
+    margin: 0 15px; /* 0 refers to top/bottom, 15 to left and right*/
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:  #c73623;
+    text-decoration: line-through;
+}
+h1{
+    font-size: 3em;
+}
+h2{ font-size: 2em;
+}
+p{
+    font-size: 1.2em;
+}
+img{
+    max-width: 100%;
+    object-fit: fill;}
+.break{
+    padding-top: 10%;
+}
+@keyframes gardenfit {
+    0%   {transform: rotate3d(1, 0, 0, 120deg);}
+    100% {transform: rotate3d(1, 0, 0, 0deg);}
+  }
+
+#gardenfit{  
+position: absolute;
+left: 0%;
+top: 10%;
+   animation-name: gardenfit;
+   color:rgb(255, 255, 255);
+   animation-duration: 10s;
+   text-transform: uppercase;
+   font-size: 5em;
+}
+#grabki{
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    width: 70%;
+
+}
+.pros{
+    text-align: center;
+    margin-top: 50%;
+}
+
+figcaption{
+    margin-top: -40px;
+    font-family: neue-haas-grotesk-display, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+.copy{
+    position: relative;
+    bottom: -250px;
+    z-index: 1;
+
+}
+
+.render{
+    position: absolute;
+    left: 0;
+    z-index: -10;}
+iframe{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption.shoot{
+   font-size: 3em;
+   font-family: messapia-bold;
+}
+h1.shoot{
+    font-size: 5em;
+}
+
